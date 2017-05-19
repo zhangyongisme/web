@@ -1,0 +1,159 @@
+@charset "gb2312";
+/* CSS Document */
+*{margin:0;
+  padding:0;
+  list-style-type:none;
+  font-family:"Î¢ÈíÑÅºÚ";
+  font-size:12px;
+  border: none;}
+body{background-color:#eeeeee;}
+a{text-decoration:none;
+  color:#333333;}
+a:hover{text-decoration:underline;}
+.header{background:url(../images/header.jpg) no-repeat top center;
+        width:100%;
+        height:274px;}
+.nav{background-color:#e4e4e4;
+     height:40px;}
+.nav-box{width:1200px;
+         margin:auto;
+         overflow:hidden;}
+.nav-box li{float:left;
+            line-height:40px;
+            width:133.3px;
+	        text-align:center;}
+.nav-box a{font-size:16px;
+           font-family:"ºÚÌå";
+           display:block;}
+.nav-box a:hover{display:block;
+                 color:white;
+                 background-color:#4975a4;}
+.current{background-color:#4975a4;
+         display:block;
+         color:white;}
+.wrapper{width:1200px;
+         margin:20px auto;
+         overflow:hidden;
+         background: #fff;}
+.sidebar{width:300px;
+         height:628px;
+         float:left;
+         background-color:#fff;
+         background-image:url(../images/about-img.png);
+         background-repeat:no-repeat;
+         background-position:0 420px;;}
+.sidebar .title{height:45px;
+                background-color:#4975a4;
+                background-image:url(../images/flag.png);
+                background-repeat:no-repeat;
+                background-position:80px 12px;}
+h3{font-weight:normal;
+   color:#fff;
+   font-size:18px;
+   text-align:center;
+   line-height:45px;}
+.sidebar .main ul{
+	margin:25px auto;
+	width:265px;
+}
+.sidebar .main li{
+	height:45px;
+	background-color:#eeeeee;
+}
+.sidebar .main li a{
+	font-family:"Î¢ÈíÑÅºÚ";
+	text-align:center;
+	display:block;
+	line-height:45px;
+	font-size:14px;
+}
+.sidebar .main li+li{
+	margin-top:15px;
+}
+.content{float:right;
+         width:870px;
+         background-color:#fff;
+         padding:0 10px 40px;}
+.content .title{
+	height:45px;
+	border-bottom:1px #eeeeee solid;
+	background-image:url(../images/position.png);
+	background-repeat:no-repeat;
+	background-position:5px;
+}
+.content .title p{line-height:45px;
+                  padding-left:40px;}
+.content .main h4{text-align:center;
+                  font-weight:normal;
+                  font-size:20px;
+                  padding:20px 0;}
+.content .main p{text-indent:2em;
+                 padding:10px;
+                 font-size:14px;
+	             line-height:24px;}
+.footer{height:144px;
+        background-color:#c6d5ea;
+        margin-top:20px;}
+.link{border-bottom:2px #d9e3f1 solid;
+      height:67px;}
+.link-box{height:20px;
+	      width:1024px;
+          margin:auto;}
+.link-box select{width:200px;
+	             height:24px;
+	             float:left;
+                 margin:0 28px;
+                 font-family:"ËÎÌå";}
+.clear{height:20px;}
+.footer p{width:1200px;
+	      margin:auto;
+          font-family: "ËÎÌå";
+          text-align:center;
+          padding-top:10px;}
+.footer p a{font-family:"ËÎÌå";}
+.content .main ul{padding:20px;}
+.content .main li{height:40px;
+                  line-height:40px;
+                  border-bottom:1px #cccccc dashed;}
+.list,.date{font-family:"ËÎÌå";}
+.list{float:left;}
+.date{float:right;}
+.page{text-align: center;}
+.page a{margin-right:20px;}
+.page select{border:#999999 1px solid;}
+.detail{background-color:#fff;}
+.detail{padding:0 10px;}
+.detail .title{height:45px;
+	           border-bottom:1px #eeeeee solid;
+	           background-image:url(../images/position.png);
+	           background-repeat:no-repeat;
+	           background-position:5px;}
+.detail .title p{line-height:45px;
+                  padding-left:40px;}
+.detail .main{text-align:center;}
+.detail .main h4{text-align:center;
+                 font-weight:normal;
+                 font-size:20px;
+                 padding:20px 0;}
+.detail .jieshao{height:35px;
+                 background-color:#f5f5f5;
+                 line-height:35px;
+                  color:#333333;}
+.detail img{margin:20px 0;}
+.page2{padding:20px 0;}
+.main .img .list{float:left;
+                 margin:10px 8px;}
+.list p{text-align:center;}
+.subMenu{width:133.3px;}
+.subMenu li{background-color:#e4e4e4;
+            border-bottom:1px #fff solid;}
+.subMenu{display:none;
+         position:absolute;}
+.subMenu.discover{display:block;}
+
+.content-box{background: #eee; overflow:hidden;}
+
+
+
+
+
